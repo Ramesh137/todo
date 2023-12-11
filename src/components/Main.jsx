@@ -102,7 +102,7 @@ const MainTemp = () => {
             key={eachTask.id}
             style={{ display: "flex", alignItems: "center", gap: "2rem" }}
           >
-            <p>{eachTask.id}</p>
+            {/* <p>{eachTask.id}</p> */}
             {editTask.id === eachTask.id ? (
               <>
                 <input
